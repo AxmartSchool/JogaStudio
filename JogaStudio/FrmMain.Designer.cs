@@ -70,6 +70,7 @@
             this.btnProgramok.TabIndex = 2;
             this.btnProgramok.Text = "Programok";
             this.btnProgramok.UseVisualStyleBackColor = false;
+            this.btnProgramok.Click += new System.EventHandler(this.btnProgramok_Click);
             // 
             // btnJelentkezes
             // 

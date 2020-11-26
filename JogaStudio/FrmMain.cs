@@ -62,5 +62,13 @@ namespace JogaStudio
         {
 
         }
+
+        private void btnProgramok_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmProgramok(connectionString);
+            frm.ShowDialog();
+
+
+        }
     }
 }
